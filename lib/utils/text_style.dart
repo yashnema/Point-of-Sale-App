@@ -5,7 +5,7 @@ TextStyle headingStyle1(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .headline1!
+      .displayLarge!
       .copyWith(fontSize: size, color: color);
 }
 
@@ -13,7 +13,7 @@ TextStyle headingStyle2(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .headline2!
+      .displayMedium!
       .copyWith(fontSize: size, color: color);
 }
 
@@ -21,7 +21,7 @@ TextStyle bodyStyle1(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .bodyText1!
+      .bodyLarge!
       .copyWith(fontSize: size, color: color);
 }
 
@@ -29,7 +29,7 @@ TextStyle bodyStyle2(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .bodyText2!
+      .bodyMedium!
       .copyWith(fontSize: size, color: color);
 }
 
@@ -37,7 +37,7 @@ TextStyle subStyle1(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .subtitle1!
+      .titleMedium!
       .copyWith(fontSize: size, color: color);
 }
 
@@ -45,7 +45,7 @@ TextStyle subStyle2(
     {required BuildContext context, double? size, Color? color}) {
   return Theme.of(context)
       .textTheme
-      .subtitle2!
+      .titleSmall!
       .copyWith(fontSize: size, color: color);
 }
 

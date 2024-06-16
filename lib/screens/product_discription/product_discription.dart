@@ -98,10 +98,10 @@ class _ProductDescriptionState extends State<ProductDescription> {
                 ],
               ),
             ),
-            SelectionCard(
+            const SelectionCard(
               selectionCardChild: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   Text(
                     'Up to ₹6,000 Instant Discount* with ICICI Bank Credit Card, Credit & Debit Card EMI',
                     style: TextStyle(

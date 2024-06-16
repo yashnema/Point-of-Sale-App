@@ -43,15 +43,15 @@ class MyApp extends StatelessWidget {
           bottomSheetTheme:
               const BottomSheetThemeData(backgroundColor: Colors.transparent),
           textTheme: TextTheme(
-            headline1: GoogleFonts.poppins(
+            displayLarge: GoogleFonts.poppins(
                 fontSize: 24, color: Colors.black, fontWeight: FontWeight.w600),
-            headline2: GoogleFonts.montserrat(
+            displayMedium: GoogleFonts.montserrat(
                 fontSize: 24, color: Colors.black, fontWeight: FontWeight.w600),
-            bodyText2: GoogleFonts.poppins(
+            bodyMedium: GoogleFonts.poppins(
                 fontSize: 18,
                 color: Colors.black54,
                 fontWeight: FontWeight.w400),
-            bodyText1: GoogleFonts.montserrat(
+            bodyLarge: GoogleFonts.montserrat(
                 fontSize: 18,
                 color: Colors.black54,
                 fontWeight: FontWeight.w400),
